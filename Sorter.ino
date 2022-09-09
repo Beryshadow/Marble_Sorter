@@ -1,6 +1,6 @@
 /* DISCLAMER */
 // Certaines fonctions ne sont pas utilisées, mais pourrait être utile pour d'autres projets.
-// Le code est beaucoup plus long que nécessaire, mais cela le rend réutilisable.
+// Le code est beaucoup plus long que nécessaire, mais cela le rend réutilisable. (Le projet aurait facilement pu prendre moin de 200 lignes)
 // Si un moteur tourne dans le mauvais sens, il suffit de rajouter un false a la declaration du moteur.
 // par exemple au lieu de Moteur_s joe(4, 7, 51) mettre Moteur_s joe(4, 7, 51, false)
 // joe est le nom du moteur, 4, 7 et 51 sont les pins de direction, d'activation, et de la limit switch respectivement, false (ou true) est le sens de rotation.
