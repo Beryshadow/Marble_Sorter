@@ -44,6 +44,11 @@ struct Rgb
         Serial.print(b);
         Serial.println(" )");
     }
+        // permet de checker si la couleur est dans un range, utile pour les couleurs de la bille spéciale
+    bool isColor(int r, int g, int b, int tolerance)
+    {
+        return (abs(this->r - r) < tolerance && abs(this->g - g) < tolerance && abs(this->b - b) < tolerance);
+    }
 };
 
 // Sensor de type TCS230
