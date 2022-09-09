@@ -1,5 +1,5 @@
 /* DISCLAMER */
-// Certaines fonctions ne sont pas utilisées, mais pourrait être utile pour d'autres projets.
+// Ce code agis plus a titre de demonstration pour quelques fonctions, c'est un peu comme une librarie mais avec un exemple intégrer.
 // Le code est beaucoup plus long que nécessaire, mais cela le rend réutilisable. (Le projet aurait facilement pu prendre moin de 200 lignes)
 // Si un moteur tourne dans le mauvais sens, il suffit de rajouter un false a la declaration du moteur.
 // par exemple au lieu de Moteur_s joe(4, 7, 51) mettre Moteur_s joe(4, 7, 51, false)
